@@ -16,11 +16,11 @@
     <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iusu">Usuario:</label>
-            <input type="text" name="usu" id="iusu" minlength="5" maxlength="12" size="10" placeholder="usuario" autocomplete="username">
+            <input type="text" name="usu" id="iusu" minlength="5" required maxlength="12" size="10" placeholder="usuario" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen" minlength="8" maxlength="20" size="10" placeholder="min 8 digitos" autocomplete="current-password">
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="10" placeholder="min 8 digitos" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
