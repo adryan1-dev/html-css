@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    main{
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
+
+    main::after{
+        content: "Essa impressão foi feita através do site www.serrot-dev.com";
+        text-decoration: overline;
+    }
+
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: block;}
+    #pc{ display: none;}
+    #tv{ display: none;}
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone{ display: none;}
+    #tablet{ display: block;}
+    #print{ display: none;}
+    #pc{ display: none;}
+    #tv{ display: none;}
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: none;}
+    #pc{ display: block;}
+    #tv{ display: none;}
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone{ display: none;}
+    #tablet{ display: none;}
+    #print{ display: none;}
+    #pc{ display: none;}
+    #tv{ display: block;}
+}
