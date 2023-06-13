@@ -12,15 +12,11 @@
         display: block;
     }
 
-    /* menu a{
-    border-top: none;
-    padding: 10px;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    text-decoration: none;
-    }  */
-
     #burguer{
         display: none;
+    }
+
+    main {
+        width: 768px;
     }
 }
