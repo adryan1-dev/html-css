@@ -44,14 +44,6 @@ menu a:hover{
     background-color: gray;
 }
 
-/* menu a{ versão pc
-    display: inline-block;
-    padding: 10px;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    text-decoration: none;
-}  */
-
 #burguer{
     background-color: rgb(48, 48, 48);
     display: block;
@@ -87,26 +79,3 @@ article p{
     text-align: justify;
 }
 
-/* @media only screen and (min-width: 768px){
-    
-    menu ul{
-        list-style: none;
-    }
-
-    menu li{
-        padding-right: 10px;
-        display: inline-block;
-    }
-
-    menu a{
-    border-top: none;
-    padding: 10px;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    text-decoration: none;
-    } 
-
-    #burguer{
-        display: none;
-    }
-} */
